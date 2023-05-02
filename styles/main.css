@@ -1,0 +1,30 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    padding-top: 5%;
+}
+
+span {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 2%;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: medium;
+    font-weight: bold;
+}
+
+@media screen and (width: 400px) {
+    .col {
+      padding-left: 7%;
+      padding-right: 7%;
+      padding-bottom: 5%;
+    }
+  }
