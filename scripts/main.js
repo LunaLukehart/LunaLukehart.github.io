@@ -27,7 +27,7 @@ searchBox.onsubmit = (ev) => {
   });
   
   console.log("quote", quoteResultsPromise)
-  const pic = fetch(`http://shibe.online/api/shibes?count=1&urls=true&httpsUrls=true`).then((r) => r.json())
+  const pic = fetch(`https://shibe.online/api/shibes?count=1&urls=true&httpsUrls=true`).then((r) => r.json())
 
   pic.then((PromiseResult) => {
     const picURL = PromiseResult[0];
